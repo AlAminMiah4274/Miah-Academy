@@ -1,0 +1,48 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#carouselExampleControls {
+    margin: 100px;
+}
+
+.navbar {
+    margin: 0px 93px 0px 93px;
+}
+
+#carouselExampleControls,
+.carousel-inner,
+.carousel-item,
+.carousel-item .active {
+    height: 100vh;
+}
+
+.carousel-item:nth-child(1) {
+    background-image: url(edu/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url(edu/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+    background-image: url(edu/banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-bg {
+    background-color: honeydew;
+}
+
+.btn-regi {
+    margin-left: 200px;
+    margin-top: 50px;
+}
