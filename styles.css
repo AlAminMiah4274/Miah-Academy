@@ -46,3 +46,17 @@ body {
     margin-left: 200px;
     margin-top: 50px;
 }
+
+.fa-star,
+.fa-star-half-stroke {
+    color: gold;
+}
+
+.fa-quote-right {
+    color: lightsteelblue;
+    font-size: 60px;
+}
+
+.star {
+    margin-left: 300px;
+}
