@@ -9,6 +9,12 @@ body {
     height: 100vh;
 }
 
+@media only screen and (max-width: 1200px) {
+    #carouselExampleControls {
+        margin-top: -58.59px;
+    }
+}
+
 .carousel-item:nth-child(1) {
     background-image: url(edu/banner.jpg);
     background-repeat: no-repeat;
@@ -64,4 +70,20 @@ footer {
 .fa-twitter {
     font-size: 25px;
     margin: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+    .seven {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .three {
+        text-align: center;
+    }
+}
+
+.button {
+    margin-top: 50px;
 }
