@@ -2,14 +2,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-#carouselExampleControls {
-    margin: 100px;
-}
-
-.navbar {
-    margin: 0px 93px 0px 93px;
-}
-
 #carouselExampleControls,
 .carousel-inner,
 .carousel-item,
@@ -59,4 +51,17 @@ body {
 
 .star {
     margin-left: 300px;
+}
+
+footer {
+    border: 1px solid;
+    padding: 70px;
+    background-color: black;
+}
+
+.fa-facebook,
+.fa-linkedin,
+.fa-twitter {
+    font-size: 25px;
+    margin: 10px;
 }
